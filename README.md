@@ -2,6 +2,8 @@
 
 GrantConnect (Australia) MCP — Commonwealth grant opportunities and grants awarded, from grants.gov.au. Keyless (Pipeworx-hosted).
 
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
+
 ## Tools
 
 - `au_grants_search(query, agency, category, recipient_state, selection_process, min_value, max_value, awarded_from, awarded_to, sort, order, limit, offset)` — awarded grants. Free text is a case-insensitive substring across `recipient_name`, `purpose`, `grant_program`, `grant_activity`; multiple words are AND-ed. Newest first by default, `sort: "value"` ranks by AUD.
@@ -55,14 +57,14 @@ Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 Instead of calling tools directly, you can ask questions in plain English:
 
 ```
-ask_pipeworx({ question: "your question about GrantConnect (Australia) data" })
+ask_pipeworx({ question: "your question about Grantconnect Au data" })
 ```
 
 The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
