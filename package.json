@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-grantconnect-au",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "GrantConnect (Australia) MCP — Commonwealth grant opportunities and grants",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-0115a3abe995c77799795ecf52de65758af6d42728e5e40913b2b859f471607f",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-376a11f8100ec9262fc7cea0e8af2b8debb1250bd9f848a0c98bbc6eab95b514",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
