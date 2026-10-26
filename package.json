@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-grantconnect-au",
-  "version": "0.1.2",
-  "description": "GrantConnect (Australia) MCP — Commonwealth grant opportunities and grants",
+  "version": "0.1.3",
+  "description": "GrantConnect (Australia) MCP — Commonwealth grant opportunities and grants awarded, from grants.gov.au. GrantConnect publishes no JSON API (only dated CSV/report downloads), so Pipeworx ingests it into its own Postgres (workers/grantconnect-ingest) and this pack queries that store via PostgREST.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-376a11f8100ec9262fc7cea0e8af2b8debb1250bd9f848a0c98bbc6eab95b514",
-    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
+    "sourceHash": "v1-671de49fadf0a2a570598b11397bcb5dc508dc30d4d2ead500850246e4de297e",
+    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
   }
 }
